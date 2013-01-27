@@ -1,0 +1,8 @@
+/*------------------Correction Styles For IE7--------------------------*/
+
+/*--------------------Actions Buttons----------------------*/
+.actions .btn-base a { min-width: 90px;}
+.actions .btn-base a span { min-width: 75px;} 
+table.listing td.no-data { width: auto;}
+/*-------------------Custom Styles---------------------------*/
+table.listing  tr.filters td input[type="text"] { width: 95%;}

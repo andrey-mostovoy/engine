@@ -1,0 +1,313 @@
+[general]
+example = "TEST SERACH VAR: {var1} or {var2}"
+click_here = "Click here"
+no_data = "No Data"
+home = "Home"
+at = "at"
+
+[paging]
+first = "&laquo;Start"
+prev = "Prev"
+prev_range = "..."
+next = "Next"
+next_range = "..."
+last = "Last&raquo;"
+all = "Show All"
+show_more = "Show more"
+
+;backend menu
+[bmenu]
+index = "Home"
+dashboard = "Dashboard"
+user = "Users"
+static = "Static Pages"
+setting = "Settings"
+view_site = "View Site"
+logout = "Logout"
+sport = "Sports"
+game = "Games"
+team = "Teams"
+
+;frontend menu
+[fmenu]
+view_profile = "My Profile"
+logout = "Log Out"
+
+[message]
+error = "Error"
+
+[button]
+add = "Add"
+create = "Create"
+delete = "Delete"
+remove = "Remove"
+hide = "Hide"
+back = "Back"
+login = "Login"
+cancel = "Cancel"
+clear = "Clear"
+reset = "Reset"
+close = "Close"
+save = "Save"
+delete_selected = "Delete"
+edit = "Edit"
+apply = "Apply"
+search = "Search"
+view = "View"
+;other
+view_picks = "View picks"
+new = "New"
+send = "Send"
+teams = "Teams"
+games = "Games"
+leagues = "Leagues"
+picks = "Picks"
+more_info = "More Info"
+sign_twitter = "Sign in with Twitter"
+
+[form]
+default_select = "Please select"
+select = "Select"
+sort_by = "Sort by"
+required_tip = "All Required Fields Are Marked With An Asterick."
+default_select_day = "Day"
+default_select_month = "Month"
+default_select_year = "Year"
+title = "Title"
+description = "Description"
+keywords = "Keywords"
+search_results = "Search Results"
+
+;error pages(404 etc...)
+[error]
+title_404 = "Error 404"
+sub_title_404 = "Page not found"
+text_404 = "The page you have requested cannot be found. Go to the"
+home = "homepage"
+go_to_home = "Go to the Homepage"
+
+;backend common view table
+[admin_table]
+actions = "Actions"
+are_you_sure = "Are you sure?"
+reset_complete = "Reset password complete"
+
+[admin]
+site_title = "Administration panel"
+login = "Login"
+pass = "Password"
+users_export = "Users export"
+welcome_message = "Welcome to the CruiseDirector admin section!"
+success_manage = "Operation is successful"
+
+[index]
+site_title_admin = "Administrator login"
+site_title = "Twitter Picks, Predictions and Bets. Tweet to pick."
+header = "Login"
+
+[breadcrumb]
+create = "Create"
+settings = "Settings"
+
+[dashboard]
+site_title_admin = "Dashboard"
+header = "Dashboard"
+welcome = "Welcome to the {site_name} admin section!"
+
+[static]
+site_title_admin = "Static Pages"
+header = "Static Pages"
+breadcrumb_create = "Static Page"
+title = "Title"
+subtitle = "Sub Title"
+content = "Content"
+alias = "URL alias"
+meta_keywords = "Meta keywords"
+meta_description = "Meta description"
+publish = "Publish"
+id = "ID"
+on_slider = "Show page on slider"
+upload = "Upload"
+short = "Short description"
+file = "Slide image"
+body = "Content"
+url = "Alias URL"
+
+[user]
+site_title_admin = "Users"
+header = "Users"
+breadcrumb_create = "User"
+delete_selected = "delete_selected"
+selected = "selected"
+role = "Role"
+id = "ID"
+email = "Email"
+password = "Password"
+confirm_password = "Confirm password"
+first_name = "First name"
+last_name = "Last Name"
+;other
+user_id = "Twitter ID"
+screen_name = "Login"
+name = "Name"
+reg_date = "Registered date"
+label = "Label"
+points = "Points"
+num_picks = "Number of picks"
+correct_picks = "Correct picks"
+total = "Total"
+profile = "Profile"
+profile_page = "profile page of"
+
+[role]
+admin = "Admin"
+member = "Player"
+
+[profile]
+site_title = "Profile"
+member_since = "Member since"
+points = "Points"
+picks_made = "Picks made"
+percentage = "Percentage"
+friends_performance = "Friends performance"
+no_friends = "No friends are on 140picks yet, invite them to have more fun"
+twit_conn_gett_on = "HOW ARE YOUR TWITTER CONNECTIONS GETTING ON"
+must_be_auth = "You should log in to view this page."
+
+[sport]
+site_title_admin = "Sports"
+header = "Sports"
+breadcrumb_create = "Sport"
+id = "ID"
+name = "Name"
+filter = "Filter sport"
+choose = "Choose sport"
+
+[league]
+site_title_admin = "League"
+header = "League"
+breadcrumb_create = "League"
+id = "ID"
+name = "Name"
+came_without_sport_id = "Select sport first"
+
+[team]
+site_title_admin = "Team"
+site_title = "Team reference guide"
+site_sub_title = "Team hashtags and tweets"
+header = "Team"
+breadcrumb_create = "Team"
+id = "ID"
+name = "Name"
+alias = "Team code"
+image = "Image"
+league = "League"
+league_id = "Leagues"
+came_without_sport_id = "Select sport first"
+success_manage_old_team = "Team was restored"
+
+[game]
+site_title_admin = "Games"
+site_title = "Picks, Predictions and Bets"
+header = "Games"
+breadcrumb_create = "Game"
+id = "ID"
+name = "Name"
+sport_id = "Sport"
+league_id = "League"
+date = "Start Date&Time"
+winner = "Winner"
+team1 = "Team name 1"
+team2 = "Team name 2"
+draw = "Draw"
+start_date = "Start date"
+start_time = "Start time"
+start_hour = "Start hour"
+start_min = "Start minute"
+confirm_change = "Some picks for game can be lost. Are you sure you want to save changes?"
+started_notice = "Game already started"
+vs1 = "vs"
+vs2 = "at"
+vs3 = "at"
+vs4 = "at"
+vs5 = "at"
+vs6 = "at"
+upcoming = "Upcoming games"
+no_upcoming = "No upcoming games"
+show_details = "Show details"
+tweet_your_pick = "tweet your pick"
+detail = "Games details"
+game_date = "Game date"
+game_played = "Game played"
+won = "Won"
+
+[pick]
+site_title_admin = "Picks"
+site_title = ""
+header = "Picks"
+breadcrumb_create = "Pick"
+id = "ID"
+pick = "Pick"
+date = "Pick Date"
+player = "Player login"
+result = "Result"
+sport = "Sport"
+game = "Game Name"
+result_0 = "Upcoming"
+result_1 = "Correct"
+result_2 = "Wrong"
+latest = "Latest picks"
+no_latest = "No latest picks"
+picked = "Picked"
+to_win = "to win"
+win = "win"
+made = "Picks made"
+
+;setting set from admin panel to db
+[setting]
+site_title_admin = "Settings"
+header = "Settings"
+breadcrumb_create = "Setting"
+name = "Key"
+value = "Value"
+
+;some ajax messages
+[ajax]
+
+[search]
+site_title = "Search"
+q = "Search query"
+games_found = "Games found"
+games_found_sub = "Games found that match your search query"
+users_found = "Users found"
+users_found_sub = "Users found"
+no_games = "Your search yielded no result. Try different keywords"
+no_users = "Your search yielded no result. Try different keywords"
+date = "Game Date"
+
+[how_it_work]
+title = "How it works"
+subtitle = "Tweet your picks"
+text = "140picks is really simple. You just create an account by signing in with your Twitter account below. Then you just tweet us to make your picks, no need to be logged in to our site. Make the right predictions and you earn points. If you top the leaderboard at the end of the month you win a $500. And you can obviously gain bragging rights!"
+
+[date_diff]
+ago = "ago"
+in = "Starts in"
+year = "Year"
+years = "Years"
+month = "Month"
+months = "Months"
+day = "Day"
+days = "Days"
+hour = "Hour"
+hours = "Hours"
+minute = "Minute"
+minutes = "Minutes"
+second = "Second"
+seconds = "Seconds"
+just_now = "Just now"
+
+[leaderboard]
+site_title = "Leaderboard"
+header = "Leaderboard"
+no_data = "No leaders"

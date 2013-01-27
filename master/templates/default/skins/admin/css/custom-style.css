@@ -1,0 +1,38 @@
+/*to add to main-style*/
+.area-bottom {margin: 0;}
+.lbottom {width: 397px; margin: 0 auto;}
+/*--------------------Grids For Action td and th---------------------*/
+table.listing td.actions, table.listing th.actions {width: 55px;} /* 2 icons */
+table.listing td.a3, table.listing th.a3 {width: 85px;} /* 3 icons */
+table.listing td.a4, table.listing th.a4 {width: 115px;} /* 4 icons */
+table.listing td.a5, table.listing th.a5 {width: 145px;} /* 5 icons */
+table.listing td.a6, table.listing th.a6 {width: 175px;} /* 6 icons */
+table.listing td.a7, table.listing th.a7 {width: 205px;} /* 7 icons */
+table.listing td.a8, table.listing th.a8 {width: 235px;} /* 8 icons */
+table.listing td.a9, table.listing th.a9 {width: 285px;} /* 9 icons */
+table.listing td.a10, table.listing th.a10 {width: 315px;} /* 10 icons */
+table.listing td.a3 { }
+/*-----------------------------------------*/
+#header {width: 100%; padding-top: 20px;}
+.header-container {background-repeat: repeat-x;}
+.header-container ul.mmenu {width: 75%; float: left;}
+.header-container ul.mmenu li a:hover, .header-container ul.mmenu li:first-child a:hover span, .header-container ul.mmenu li a.selected, .header-container ul.mmenu li:first-child a.selected span {background-position: left -200px; background-repeat: repeat-x; color: #333;}
+.header-container ul.mmenu li:first-child a span{display: block; padding: 0 15px 0 10px;}
+.header-container ul.mmenu li:first-child a:hover, .header-container ul.mmenu li:first-child a.selected {background-position: left -150px; background-repeat: no-repeat}
+.header-container ul.mmenu li.dropdown {position: relative;}
+.header-container ul.mmenu li.dropdown ul a {white-space: nowrap;}
+.header-container ul.mmenu li.dropdown ul a:hover {color: #f1f1f1; opacity: 1;}
+.header-container ul.submenu  {min-width: 100%;}
+.header-container ul.right-menu {float: right; width:195px;}
+.header-container ul.right-menu li {float: right; line-height: 50px; padding-right:0; width: 70px;}
+.header-container ul.right-menu li.site {background: url(../images/backgrounds/bg-mmenu-border.gif) no-repeat right 1px; float: right; line-height: 50px; padding: 0 2px 0 0;}
+.header-container ul.right-menu li.site a {background: transparent; line-height: 50px; padding: 0 15px 0 0; }
+.header-container ul.right-menu li a{line-height: 50px; color: #666;}
+.header-container ul.right-menu li a:hover{color: #333;}
+.header-container ul.right-menu li.logout a {background: url(../images/backgrounds/bg-mmenu.gif) no-repeat right -100px; padding: 0 5px 0 0; line-height: 50px;}
+.header-container ul.right-menu li.logout a span {background: url(../images/backgrounds/bg-mmenu.gif) no-repeat right -50px; padding: 0 10px 0 15px;}
+.header-container ul.right-menu li.logout a:hover {color: #333; background: url(../images/backgrounds/bg-mmenu.gif) no-repeat right -250px;}
+.header-container ul.right-menu li.logout a:hover span {background: url(../images/backgrounds/bg-mmenu.gif) repeat-x right -200px;}
+/*-----------------error show----------------------*/
+tr.error label {color: #ff0000}
+tr.error input {border: 1px solid #ff0000}

@@ -1,0 +1,1 @@
+{*css file="`$url.common_css`/ckeditor/_samples/sample.css"*}

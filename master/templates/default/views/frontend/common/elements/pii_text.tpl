@@ -1,0 +1,1 @@
+<input type="text" {include_element file="pif_name"} {include_element file="pif_value"} />

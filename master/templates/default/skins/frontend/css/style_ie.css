@@ -1,0 +1,10 @@
+/* IE 8, IE 7 CSS Document */
+.landing .tour-section .quote .qbody, .login-popup .lp-content, .user-toolbar ul, .sidebar .sidebar-nav, ul.tabs li a, .tabs-content, .wf-form, .help-message .hint-wrapper { behavior: url(css/pie.htc); position: relative; }
+.landing .tour-section .quote .qsign { position: relative; z-index: 1; }
+/*IE7*/
+*:first-child+html input[type='checkbox'], *:first-child+html input[type='radio'] { margin: -3px 0 0 -3px; }
+*:first-child+html .landing .tour-section .quote .qsign { margin-top: -2px; } 
+*:first-child+html .login-popup { clear: both; }
+*:first-child+html .login-popup .lp-content { margin:0 0 0 -270px; top: 25px; }
+*:first-child+html .login-popup .lpc-form .lpf-user-tools input { margin: -2px 0 0 -3px; }
+*:first-child+html .tbl-listing table { table-layout: fixed; }

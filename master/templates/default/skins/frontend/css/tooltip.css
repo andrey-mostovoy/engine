@@ -1,0 +1,21 @@
+/* tooltip styling. by default the element to be styled is .tooltip  */
+.tooltip {
+	display:none;
+	background:transparent url(../images/tooltip/black_arrow.png);
+	font-size:12px;
+	height:70px;
+	width:160px;
+	padding:25px;
+	color:#fff;	
+}
+
+/* override the arrow image of the tooltip */
+.tooltip.bottom {
+	background:url(../images/tooltip/black_arrow_bottom.png);
+	padding-top:40px;
+	height:55px;
+}
+
+.tooltip.bottom {
+	background:url(../images/tooltip/black_arrow_bottom.png);
+}

@@ -1,0 +1,25 @@
+#Options +FollowSymLinks
+Options -Indexes
+
+<Files "\.(css)$">
+order allow,deny
+deny from all
+</Files>
+
+RewriteEngine on
+RewriteBase /
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-l
+
+# while site under construction
+#RewriteCond %{REQUEST_URI} !/maintenance.html$
+#RewriteCond %{REMOTE_ADDR} !192.168.0.*
+#RewriteRule .* /maintenance.html [R=302,L]
+
+RewriteRule !\.(htm|html|tpl|js|css|jpg|jpeg|png|gif|ico|swf|xls|xml|mp3|eot|woff|ttf|svg)$ index.php [L]
+
+#RewriteRule \/src\/(.*)$ index.php/$1 [L,QSA]
+#RewriteRule .* /src/index.php
+#RewriteRule ^/?$  src/index.php   [L]

@@ -1,0 +1,1 @@
+{include_element file="left_menu"}

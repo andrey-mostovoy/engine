@@ -1,0 +1,18 @@
+/* General Site CSS Document */
+/*---------------------------------------*/
+.hidden { display: none; }
+/*---------------- ajaxer -----------------------*/
+.js-ajax-block { position: fixed;  z-index: 1009; background: url(../images/ajaxer/wdot.png) repeat; border: 1px solid #9ec3de; max-width: 250px; min-width: 50px; left: 5px; top: 5px; }
+.js-ajax-block>.container { padding: 10px; }
+.js-ajax-block>.container .text-content { padding-right: 25px; }
+.js-ajax-block>.container >.text-content p { padding: 2px 0 0; color: #005273; word-wrap: break-word; }
+.js-ajax-block>.container >.text-content p.ajax_error { color: #c80000; }
+
+.js-ajax-block>.container>a.lnk-hide { width: 18px; height: 18px; float:right; text-indent: -10000px; background: url(../images/ajaxer/btn-close.png) no-repeat; }
+
+.js-ajax-block > .rajax-block{ /*background: url(../images/ajaxer/bg-rajax-block.png) no-repeat right bottom;*/ height:35px; width:5px; float:left; }
+
+#js_iframe_loading { text-align: center; }
+
+#js_no_alerts { padding: 0 15px; }
+

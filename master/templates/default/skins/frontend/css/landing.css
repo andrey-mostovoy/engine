@@ -1,0 +1,76 @@
+/* Landing CSS Document */
+/*---------------------------------------*/
+#header ul.landmenu { text-align: right; float: right; padding-top: 29px; }
+#header ul.landmenu li { display: inline-block; float: left; padding-left: 35px; }
+#header ul.landmenu li>a { color: #00006e; font-weight: bold; font-size: 14px; line-height: 16px; }
+#header ul.landmenu li>a:hover, #header ul.landmenu li>a.current { color: #9a008b; }
+/*---------------------------------------*/
+.slideshow { width: 950px; overflow: hidden; clear: both; padding-top: 20px; }
+/*---------------------------------------*/
+.scroller { margin: 0 auto; width: 880px; height: 265px; overflow: hidden; position: relative; }
+.scroller ul { width: 20000px; position: absolute; }
+.scroller ul li  { float: left; width: 880px; height: 265px; }
+/*---------------------------------------*/
+.slide-btns { position: absolute; width: 330px; bottom: 30px; padding-left: 35px; }
+.slide-btns a, .take-tour-btns a { float: right; width: 132px; height: 37px; background: url(../images/forms/buttons/btn-buy-now.png) no-repeat left top; text-indent: -10000px; overflow: hidden; }  
+.slide-btns a:first-child, .take-tour-btns a:first-child { float: left; background: url(../images/forms/buttons/btn-take-a-tour.png) no-repeat;  }
+.slide-btns a:hover, .take-tour-btns a:hover { background-position: left bottom; }
+/*---------------------------------------*/
+.navi { text-align: center; position: absolute; width: 880px; margin: -20px 0 0 35px; }
+.navi a { display: inline-block; width: 10px; height: 10px; margin: 0 5px; background: url(../images/site/slider-nav.png) no-repeat left top; }
+.navi a:hover, .navi a.active { background-position: left bottom; }
+/*---------------------------------------*/
+.landing .section { width: 920px; padding: 15px; }
+.landing .section h2 { font-size: 36px; line-height: 38px; color: #410166; padding-left: 25px; }
+/*---------------------------------------*/
+.landing .columed-content { width: 920px; overflow: hidden; }
+.landing .columed-content .column { float: right; width: 320px; }
+.landing .columed-content .column:first-child { float: left; width: 420px; }
+/*---------------------------------------*/ 
+.landing .pod-section { font-size: 13px; line-height: 18px; color: #404040; }
+.landing .pod-section .columed-content { background: url(../images/landing/the-pod-section-bg.png) no-repeat center bottom; min-height: 145px; } 
+.landing .pod-section h2 { font-weight: bold; padding-bottom: 15px; }
+.landing .pod-section ul li { background: url(../images/site/orange-marker.png) no-repeat left 3px; padding: 0 0 15px 25px; }
+.landing .pod-section .quote { color: #410166; text-align: right; font-size: 12px; line-height: 14px; }
+.landing .pod-section .quote span { display: block; padding-top: 10px; }
+/*---------------------------------------*/ 
+.landing .tour-section h2 { text-align: center; background: url(../images/landing/demo-tour-header-arrow.png) no-repeat left bottom; padding: 0 45px 45px 25px; margin-bottom: -7px; line-height: 40px; }
+.landing .tour-section { font-size: 12px; }
+/*---------------------------------------*/
+.landing .tour-section .columed-content .column { width: 405px; }
+.landing .tour-section .columed-content .column:first-child { padding-left: 55px; line-height: 18px; width: 425px; }
+.landing .tour-section .columed-content .column:first-child p span { color: #410166; padding-top: 10px; display: block; }
+.landing .tour-section .columed-content .column:first-child p span strong { font-size: 16px; }
+ /*---------------------------------------*/
+.landing .tour-section .take-tour-btns { height: 37px; padding-top: 10px; }
+.landing .tour-section .take-tour-btns { float: left; }
+.landing .tour-section .take-tour-btns a:first-child { padding-right: 55px; }
+/*---------------------------------------*/
+.landing .tour-section h3 { font-size: 18px; line-height: 20px; padding-top: 5px; }
+/*---------------------------------------*/
+.landing .tour-section .quote { padding-top: 18px; }
+.landing .tour-section .quote .qbody { background: #f1eff1; border: 1px solid #d9d7d9; -webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px; padding: 15px 10px; text-align: right; color: #403f3f; font-size: 16px; line-height: 18px; font-style: italic; }
+.landing .tour-section .quote .qsign { background: url(../images/site/qsign-bg.png) no-repeat 335px top; margin-top: -1px; font-size: 12px; color: #403f3f; text-align: right; padding: 7px 65px 0 0; }
+/*---------------------------------------*/
+.landing .tour-section .social-tools { padding: 10px 0 0; width: 405px; overflow: hidden; }
+.landing .tour-section .social-tools .paypal { float: left; }
+.landing .tour-section .social-tools .share { float: right; padding-top: 15px; }
+/*---------------------------------------*/
+.login-popup { position: absolute; z-index: 1; text-align: left; width: 265px; }
+.login-popup .lp-content { background: #f1eff1; border: 1px solid #d9d7d9; -webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px; padding: 15px 20px 20px; margin: 10px 0 0 -225px; width: 225px; overflow: hidden; }
+.login-popup .lp-content .lpc-header { padding-bottom: 5px; }
+.login-popup .lp-content .lpc-header a.btn-close { width: 13px; height: 13px; background: url(../images/icons/ico-close.png) no-repeat; float: right; margin-top: 2px; }
+.login-popup .lp-content .lpc-header span { font-size: 14px; line-height: 16px; color: #00006e; font-weight: bold; }
+.login-popup .lpc-form label, .login-popup .lpc-form input[type='text'], .login-popup .lpc-form input[type='password'] { display: block; }
+.login-popup .lpc-form input[type='text'], .login-popup .lpc-form input[type='password'] { width: 221px; }
+.login-popup .lpc-form label { padding: 7px 0 3px; }
+.login-popup .lpc-form a.btn-login, .login-popup .lpc-form a.btn-send { background: url(../images/forms/buttons/btn-login.png) no-repeat left top; height: 30px; width: 97px; display: block; margin-top: 10px; }
+.login-popup .lpc-form a.btn-send { background: url(../images/forms/buttons/btn-send.png) no-repeat left top; } 
+.login-popup .lpc-form a.btn-login:hover, .login-popup .lpc-form a.btn-send:hover { background-position: left bottom; }
+.login-popup .lpc-form .lpf-user-tools { color: #585858; font-size: 11px; padding: 10px 0 0; }
+.login-popup .lpc-form .lpf-user-tools label { display: inline; padding: 0; }
+.login-popup .lpc-form .lpf-user-tools>a { color: #585858; text-decoration: underline; }
+.login-popup .lpc-form .lpf-user-tools input { float: left; margin: 1px 5px 0 0; }
+           
+
+

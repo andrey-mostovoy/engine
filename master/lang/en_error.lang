@@ -1,0 +1,94 @@
+[general]
+empty_field = "Please fill mandatory fields"
+email = "Incorrect E-mail"
+no_content = "No content"
+
+[admin]
+error_login = "Incorrect email or password"
+delete_myself = "You try to delete youself!"
+
+[form]
+empty = "{$field} field is required!"
+wrong = "Incorrect"
+short = "{$field} value too short. Must be more than {$length}"
+long = "{$field} value too long. Must be less than {$length}"
+unique = "{$field} is unique"
+mismatch = "Values not match. {$field1} and {$field2} must be equal."
+string = "{$field} field should be a string"
+less = "Value less"
+wysiwyg = "{$field} field should contain the content"
+user_not_exist = "No user found"
+user_not_activated = "Account is not activated, please click on the link in your activation email"
+user_not_active = "Account has been blocked. Please check your email for details"
+maxwordcount = "Word count is more than expected"
+minwordcount = "Word count is less than expected"
+queue_limit = "You have attempted to queue too many files."
+uniqua = "A profile with this email address already exists!"
+up_incorrect = "The username or password, you have entered, is incorrect. Please try again or click Forgot your password"
+uniq = "A profile with this email address already exists. Please Sign In, or Sign Up with a different email."
+uniqu = "A profile with this email address already exists. Please enter different email."
+activate_first = "Please activate your account first. Activation letter was sent on registered mail."
+email_empty = "Please enter email!"
+password_empty = "Please enter password!"
+email_wrong = "Please Check Your Email"
+real_pass_empty = "Please enter password!"
+no_users_checked = "No users was checked."
+
+[user]
+
+[static]
+
+[league]
+name_unique = "League with such name already exist"
+id_unique = "League with such name already exist"
+
+[team]
+league_id_empty = "Leagues must not be empty"
+name_unique = "Team with such {$field} already exist"
+alias_unique = "Team with such {$field} already exist"
+image_err_4 = "You should upload the image."
+image_err_8 = "Incorrect image format"
+image_size = "Image should not be less than 50x50px"
+
+[game]
+match = "{$field1} and {$field2} cannot be the same"
+team1_unique = "Game with such parameters already exist"
+
+[setting]
+
+[auth]
+password_not_match = "Passwords do not match"
+user_exist = "This email already exist"
+password_short = "Your password too short"
+password_long = "Your password too long"
+email_short = "Your email too short"
+email_long = "Your email too long"
+check_your_mail = "No such email registered. Please check your email."
+
+[account]
+
+[contact]
+
+[file_upload]
+err = "Unknown upload error"
+err_1 = "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+err_2 = "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form"
+err_3 = "The uploaded file was only partially uploaded"
+err_4 = "No file was uploaded"
+err_6 = "Missing a temporary folder"
+err_7 = "Failed to write file to disk"
+err_8 = "File upload stopped by extension"
+
+[search]
+empty_search = "No search results. Try again."
+
+[alert]
+no_alerts = "No alerts"
+
+[group]
+no_admin = "No admins"
+no_member = "No members"
+no_join = "No requests"
+
+[ajax]
+remove_history = "Error on remove search history"
